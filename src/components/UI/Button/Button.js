@@ -2,7 +2,7 @@ import React from 'react';
 
 const button = props => {
   return (
-    <div className="btn btn-primary mr-3"> Mon Compte</div>
+    <div className="btn btn-info mr-3"> {props.children}</div>
   );
 }
 
